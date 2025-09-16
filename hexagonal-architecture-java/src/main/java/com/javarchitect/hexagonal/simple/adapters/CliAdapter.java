@@ -11,7 +11,7 @@ public class CliAdapter {
     }
 
     public void run() {
-        Task task = taskUseCase.createTask("Write hexagonal architecture article");
+        Task task = taskUseCase.createTask("Follow JavaRchitect's hexagonal architecture code");
         taskUseCase.completeTask(task.getId());
     }
 }
